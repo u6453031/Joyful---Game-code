@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/joyful.css">
+	<meta charset="utf-8"/>
+	<title>Joyful</title>
+</head>
+
+<body>
+	<div class="content">
+		<!--Display area-->
+		<div class="left_show div1">
+			<h3></h3>
+			<div class="show_img">
+				<div class="img">
+					<img src=" ">
+					<div class="hz">
+						<img src=" " id="shangyi">
+					</div>
+					<div class="hz hz2">
+						<img src=" " id="kuzi">
+					</div>
+					<div class="hz hz3">
+						<img src=" " id="xiezi">
+					</div>
+					<div class="hztz">
+						<img src=" " id="taozhuang">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!--material area-->
+		<div class="right_item div1">
+			<h3>Clothing library</h3>
+			<div>
+				<div>
+					<span class="name">Tops/trousers</span>
+					<div class="box">
+						<div class="xiaotu">
+							<div class="shangyi">
+								<img src=" " alt="">
+								<img src=" " alt="">
+								<img src=" " alt="">
+							</div>
+							<div class="kuzi">
+								<img src=" " alt="">
+								<img src=" " alt="">
+								<img src=" " alt="">
+							</div>
+						</div>
+					
+					</div>
+				</div>
+				
+				<div>
+					<span class="name">Skirt/shoes</span>
+					<div class="box">
+						<div class="xiaotu">
+							<div class="xiaotu qunzi">
+								<img src=" " alt="">
+								<img src=" " alt="">
+								<img src=" " alt="">
+								
+							</div>
+							<div class="xiaotu xiezi">
+								<img src=" " alt="">
+								<img src=" " alt="">
+								<img src=" " alt="">
+							</div>
+						</div>
+					
+					</div>
+				</div>
+				
+				<div>
+					<span class="name">Suit</span>
+					<div class="xiaotu taozhuang">
+						<img src=" " alt="">
+						<img src=" " alt="">
+						<img src=" " alt="">
+						<img src=" " alt="">
+						<img src=" " alt="">
+					</div>
+				</div>
+				
+			
+				
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(".hztz").hide();
+		
+		$(".shangyi img").click(function(){
+			$(".hz").show();
+			$(".hztz").hide();
+			$(".hz2").hide();
+			var imgpath = $(this).attr("src");
+			$("#shangyi").attr("src",imgpath)
+		})
+		
+		$(".qunzi img").click(function(){
+			$(".hz").show();
+			$(".hztz").hide();
+			$(".hz2").hide();
+			var imgpath = $(this).attr("src");
+			$("#shangyi").attr("src",imgpath)
+			$("#kuzi").attr("src",'')
+		})
+		
+		
+		$(".kuzi img").click(function(){
+			$(".hz").show();
+			$(".hztz").hide();
+			var imgpath = $(this).attr("src");
+			$("#kuzi").attr("src",imgpath)
+		})
+		
+		
+		$(".xiezi img").click(function(){
+			$(".hz").show();
+			$(".hztz").hide();
+			var imgpath = $(this).attr("src");
+			$("#xiezi").attr("src",imgpath)
+		})
+		
+		$(".taozhuang img").click(function(){
+			$(".hztz").show();
+			$(".hz").hide();
+			var imgpath = $(this).attr("src");
+			$("#taozhuang").attr("src",imgpath)
+		})
+		
+	
+	</script>
+</body>
