@@ -1,1 +1,4 @@
 # Joyful---Game-code
+
+## Background
+The Joyful Fashionista seeks to encourage sustainability in fashion by creating an online site for buying and selling second-hand clothing. In essence, it is like a giant op shop. Now, Joyful Fashionista hopes to attract and retain more customers by using gamification. As a computing student, the main task is to learn gamification and then use our professional skills to achieve the goal of gamification. Based on the company's development plan, we are now focusing on realizing gamification on the web. Later, after the company completes its own app, we can develop new functions that satisfy the gamification of the app. This semester, we designed a dress-up game to increase the attractiveness of the website and help joyful Fashionista achieve the goal of attracting and retaining more customers.
