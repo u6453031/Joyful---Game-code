@@ -24,3 +24,13 @@ Html5
 1. For this semester, we will design a dressing game to help Joyful Fashionista bring more customers. Meanwhile, we will keep introducing new Chinese e-commerce
 to customer every week to give her more inspiration.
 2. For next semester, after Joyful Fashionista is pubulished, more intersting game on website and mobile will be designed.
+
+## Development Team
+| Name              | UID      | Main Role           | Other Role(s)   |
+| ----------------- | -------- | ------------------- | --------------- |
+| Yuxin Deng        | u6453031 | front-end developer |                 |
+| Fengqing Wu       | u7166770 | front-end developer |                 |
+| Shuhui Dong       | u7012230 | front-end developer |                 |
+| Xiaotong Yang     | u6842114 | back-end developer  | Picture Desinger|
+| Ziwei Wang        | u6786774 | back-end developer  | Picture Desinger|
+| Xi Zhang          | u7174028 | back-end developer  | Picture Desinger|
