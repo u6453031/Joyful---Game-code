@@ -9,10 +9,10 @@
 	<div class="content">
 		<!--Display area-->
 		<div class="left_show div1">
-			<h3>Bird<h3>
+			<h3>Bird</h3>
 			<div class="show_img">
 				<div class="img">
-					<img src="Images/bird_test.jpg">
+					<img src="Source/bird.png">
 					<div class="hz" id="hat" ondrop="drop(event)" ondragover="allowDrop(event)">
 					<!--	<img src=" " id="shangyi">  -->
 					</div>
@@ -26,9 +26,12 @@
 						<img src=" " id="taozhuang">
 					</div>
 				</div>
-				
 			</div>
-		</div>
+				<div class="btn">
+					<button type="button" id="auto">自动换装</button>
+					<button type="button" id="autoBack">更换背景</button>
+				</div>
+			</div>
 
 		<!--material area-->
 		<div class="right_item div1">
@@ -109,6 +112,18 @@
         var data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
         }
+
+        var back = ["Source/back/1.JPG","Source/back/2.JPG","Source/back/3.JPG","Source/back/4.JPG","Source/back/5.JPG",
+			"Source/back/6.JPG"];
+		var bgnum = 0;
+		$(".left_show").css("background-image","url(" +back[bgnum]+ ")");
+		$("#autoBack").click(function(){
+			bgnum++
+			if(bgnum > 5){
+				bgnum = 0;
+			}
+			$(".left_show").css("background-image","url(" +back[bgnum]+ ")");
+		})
 
         </script>
 
