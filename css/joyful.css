@@ -46,9 +46,9 @@
 
 		 #hat{
 				position: absolute;
-    			top:  0px;
+    			top:  -50px;
     			left: 78px;
-
+                border:solid;
     			width:300px;
     			height:300px;
 		}
@@ -64,9 +64,10 @@
 
 
 		img{
-			width: 100%;
-			height: 100%;
+
 		}
+
+
 		.xiaotu{
 			display: flex;
 		}
