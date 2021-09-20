@@ -62,6 +62,18 @@
             border:solid;
 		}
 
+		#feet{
+	     position: absolute;
+         top:  200px;
+         left: 35px;
+         width:250px;
+         height:100px;
+         border:solid;
+
+		}
+
+
+
 		.hat_w{
 
 		      width:100px;
@@ -80,19 +92,44 @@
 	    left:-40px;
         top:-100px;
 		width:350px;
-
 		}
 
+		#body3{
+                position:relative;
+        	    left:-40px;
+                top:-100px;
+        		width:350px;
+
+        }
+
+		#body4{
+                position:relative;
+        	    left:-40px;
+                top:-100px;
+        		width:350px;
+
+        }
 
 
 
+        #shoes1{
+        position:relative;
+        top:-200px;
+        width:350px;
+        left:-40px;
+        }
 
+         #shoes2{
+                position:relative;
+                top:-200px;
+                width:350px;
+                left:-40px;
+                }
 
 		.body_box{
 		 width:100px;
          height:200px;
          padding:5px;
-
 		}
 
 
@@ -109,17 +146,14 @@
 			display: flex;
 			justify-content: space-between;
 		}
+
 		.xiaotu img{
 			width: 100px;
 			border: 1px solid #999;
 			margin: 5px;
 			height: 200px;
 		}
-		.hztz{
-			position: absolute;
-			bottom: 5px;
-			left: 0;
-		}
+
 		h3{
 			text-align: center;
 		}
