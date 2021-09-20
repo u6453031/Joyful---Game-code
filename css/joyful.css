@@ -55,8 +55,8 @@
 
 		#body{
 			position: absolute;
-            top:  105px;
-            left: 55px;
+            top:  100px;
+            left: 35px;
             width:250px;
             height:100px;
             border:solid;
@@ -69,20 +69,23 @@
 		      padding:5px;
 		}
 
-		#body1{
-
-		width:220px;
-		height:200px;
-
+		.body_box{
+		  width:100px;
+          height:200px;
+          padding:5px;
 		}
-
 
 		#body2{
-
-		width:150px;
-		height:100px;
+        position:relative;
+	    left:-40px;
+        top:-100px;
+		width:350px;
 
 		}
+
+
+
+
 
 
 		.body_box{
