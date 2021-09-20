@@ -46,11 +46,20 @@
 
 		 #hat{
 				position: absolute;
-    			top:  8px;
+    			top:  5px;
     			left: 5px;
     			width:330px;
-    			height:330px;
+    			height:80px;
     			border:solid;
+		}
+
+		#body{
+			position: absolute;
+            top:  105px;
+            left: 55px;
+            width:250px;
+            height:100px;
+            border:solid;
 		}
 
 		.hat_w{
@@ -60,12 +69,34 @@
 		      padding:5px;
 		}
 
+		#body1{
 
-
-
-		img{
+		width:220px;
+		height:200px;
 
 		}
+
+
+		#body2{
+
+		width:150px;
+		height:100px;
+
+		}
+
+
+		.body_box{
+		 width:100px;
+         height:200px;
+         padding:5px;
+
+		}
+
+
+
+
+
+
 
 
 		.xiaotu{

@@ -13,9 +13,21 @@
 			<div class="show_img">
 				<div class="img">
 					<img src="Source/layers/bird.png">
-					<div class="hz" id="hat" ondrop="drop(event)" ondragover="allowDrop(event)">
-					<!--	<img src=" " id="shangyi">  -->
+
+					<div class="hz" id="hat" ondrop="drop(event)" ondragover="allowDrop(event)" >
 					</div>
+					<div class="hz" id="body" ondrop="drop(event)" ondragover="allowDrop(event)" >
+					</div>
+					<div class="hz" id="feet" ondrop="drop(event)" ondragover="allowDrop(event)" >
+					</div>
+
+                   <!--
+					<div class="hz" id="output"  ondragenter="document.getElementById('output').textContent = '';
+					     event.stopPropagation(); event.preventDefault();"
+						 ondragover="event.stopPropagation(); event.preventDefault();"
+						 ondrop="event.stopPropagation(); event.preventDefault(); dodrop(event);">
+					</div>
+
 					<div class="hz hz2">
 						<img src=" " id="kuzi">
 					</div>
@@ -25,6 +37,7 @@
 					<div class="hztz">
 						<img src=" " id="taozhuang">
 					</div>
+					-->
 				</div>
 			</div>
 				<div class="btn">
@@ -49,15 +62,18 @@
 									<img src="Source/layers/2.png" alt="" id="hat2" draggable="true" ondragstart="drag(event)">
 								</div>
 								<div class="hat_w" id="hat_3" ondrop="drop(event)" ondragover="allowDrop(event)">
-									<img src="Source/layers/1.png" alt="" id="hat3" draggable="true" ondragstart="drag(event)">
+									<img src="Source/layers/pirate-hat.png" alt="" id="hat3" draggable="true" ondragstart="drag(event)">
+								</div>
+								<div class="hat_w" id="hat_4" ondrop="drop(event)" ondragover="allowDrop(event)">
+									<img src="Source/layers/school-hat.png" alt="" id="hat4" draggable="true" ondragstart="drag(event)">
+								</div>
+								<div class="hat_w" id="hat_5" ondrop="drop(event)" ondragover="allowDrop(event)">
+									<img src="Source/layers/witch-hat.png" alt="" id="hat5" draggable="true" ondragstart="drag(event)">
+								</div>
+								<div class="hat_w" id="hat_6" ondrop="drop(event)" ondragover="allowDrop(event)">
+									<img src="Source/layers/hat-blue.png" alt="" id="hat6" draggable="true" ondragstart="drag(event)">
 								</div>
 
-								<img src=" " alt="">
-							</div>
-							<div class="kuzi">
-
-								<img src=" " alt="">
-								<img src=" " alt="">
 							</div>
 						</div>
 					
@@ -68,17 +84,14 @@
 					<span class="name">Skirt/shoes</span>
 					<div class="box">
 						<div class="xiaotu">
-							<div class="xiaotu qunzi">
-								<img src=" " alt="">
-								<img src=" " alt="">
-								<img src=" " alt="">
-								
+							<div class="body_box" id="body_box1" ondrop="drop(event)" ondragover="allowDrop(event)">
+									<img src="Source/div/1.png" alt="" id="body1" draggable="true" ondragstart="drag(event)">
 							</div>
-							<div class="xiaotu xiezi">
-								<img src=" " alt="">
-								<img src=" " alt="">
-								<img src=" " alt="">
+							<div class="body_box" id="body_box2" ondrop="drop(event)" ondragover="allowDrop(event)">
+								<img src="Source/div/flowers.png" alt="" id="body2" draggable="true" ondragstart="drag(event)">
 							</div>
+
+
 						</div>
 					
 					</div>
@@ -120,6 +133,8 @@
         var data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
         }
+
+
 
         var back = ["Source/back/1.JPG","Source/back/2.JPG","Source/back/3.JPG","Source/back/4.JPG","Source/back/5.JPG",
 			"Source/back/6.JPG"];
