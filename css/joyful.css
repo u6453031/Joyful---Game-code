@@ -32,7 +32,7 @@
 			
 		}
 		.show_img .img{
-			width: 350px;
+			width: 700px;
 			position: relative;
 		}
 		.img img{
@@ -46,8 +46,8 @@
 
 		 #hat{
 				position: absolute;
-    			top:  5px;
-    			left: 5px;
+    			top:  0px;
+    			left: 50px;
     			width:330px;
     			height:80px;
     			border:solid;
@@ -56,7 +56,7 @@
 		#body{
 			position: absolute;
             top:  100px;
-            left: 35px;
+            left: 70px;
             width:250px;
             height:100px;
             border:solid;
@@ -64,8 +64,8 @@
 
 		#feet{
 	     position: absolute;
-         top:  200px;
-         left: 35px;
+         top:  230px;
+         left: 60px;
          width:250px;
          height:100px;
          border:solid;
