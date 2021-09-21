@@ -143,12 +143,13 @@
 
 
         var back = ["Source/back/1.JPG","Source/back/2.JPG","Source/back/3.JPG","Source/back/4.JPG","Source/back/5.JPG",
-			"Source/back/6.JPG"];
+			"Source/back/6.JPG","Source/back/7.JPG","Source/back/8.JPG","Source/back/9.JPG","Source/back/10.JPG","Source/back/11.JPG",
+			"Source/back/12.JPG","Source/back/13.JPG","Source/back/14.JPG"];
 		var bgnum = 0;
 		$(".left_show").css("background-image","url(" +back[bgnum]+ ")");
 		$("#autoBack").click(function(){
 			bgnum++
-			if(bgnum > 5){
+			if(bgnum > 13){
 				bgnum = 0;
 			}
 			$(".left_show").css("background-image","url(" +back[bgnum]+ ")");
