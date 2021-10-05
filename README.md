@@ -7,7 +7,7 @@ The Joyful Fashionista seeks to encourage sustainability in fashion by creating 
 Dress-up Game
 
 ## Language
-Html5
+V
 
 ## Milestones
 1. Begin to design dressing game demo.
