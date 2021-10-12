@@ -61,11 +61,11 @@ export default defineComponent({
       hat: ['./layers/hats/1.png', './layers/hats/2.png', './layers/hats/3.png', './layers/hats/4.png', './layers/hats/5.png', './layers/hats/6.png', './layers/hats/7.png', ''],
       body: ['./layers/body/1.png', './layers/body/2.png', './layers/body/3.png', './layers/body/4.png','./layers/flowers.png','./layers/body/5.png', './la' +
       'yers/body/6.png', ''],
-      shoes: ['./layers/shoes/1.png', './layers/shoes/2.png', './layers/shoes/3.png', './layers/shoes/4.png', ''],
+      shoes: ['./layers/shoes/1.png', './layers/shoes/2.png', './layers/shoes/3.png', './layers/shoes/4.png', './layers/shoes/5.png', './layers/shoes/6.png', './layers/shoes/7.png', ''],
       bird:"./layers/bird.png",
       backshow: 0,
       hatShow: 7,
-      shoesShow: 4,
+      shoesShow: 7,
       bodyShow: 7,
       Transitem: 0,
       Transtype: '',
