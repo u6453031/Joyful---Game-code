@@ -2,8 +2,8 @@
 
   <n-grid :x-gap="12" :y-gap="8" style="padding:30px 0px 0px 0px;">
     <n-gi x-gap="12" :span="6" :offset="2">
-      <a style="font-size: 120%; padding: 20px">项目内容</a>
-      <NButton @click="changeBack">更换背景</NButton>
+      <a style="font-size: 140%; padding: 20px; font-weight: bold">Joyful Fashionista</a>
+      <NButton @click="changeBack">Change Background</NButton>
       <div style="position: relative;padding:30px 0px 0px 0px;" @dragover.prevent="over" @drop.prevent="drop">
         <div :style="{ 'background-image': 'url(' + birdproject.background[birdproject.backshow] + ')', 'background-size': '100%', width: '100%', position: 'absolute' }">
           <img :src=birdproject.bird style="width:100%; padding:100px 0px 0px 0px;" />
